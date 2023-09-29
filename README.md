@@ -28,7 +28,7 @@ It was created using HTML5, CSS3, Sass, jQuery and JavaScript ES6.
 
 ## View it live
 
-You can view the project and try it out [here]().
+You can view the project and try it out [here](https://rclarkeweb.github.io/Just-another-to-do-list/).
 
 ## Usage and license
 
