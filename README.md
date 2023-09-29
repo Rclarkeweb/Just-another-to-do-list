@@ -33,3 +33,11 @@ You can view the project and try it out [here](https://rclarkeweb.github.io/Just
 ## Usage and license
 
 You may fork or copy this project for your own **personal** use.
+
+## Screenshots
+
+**Light Mode**
+![image](https://github.com/Rclarkeweb/Just-another-to-do-list/assets/108008511/5aaf8676-2a7a-43fa-bf84-09c88c914846)
+
+**Dark Mode**
+![image](https://github.com/Rclarkeweb/Just-another-to-do-list/assets/108008511/73a285a0-c054-4ee0-b9b2-70f7f829f017)
