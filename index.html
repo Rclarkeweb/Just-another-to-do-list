@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just another to do list</title>
+
+    <!-- CSS Stylesheet -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/69f7465c1a.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button id="darkMode"><i class="fa-solid fa-moon"></i></button>
+
+        <p class="date">
+            <span id="dayOfWeek"></span><br />
+            <span id="dateText"></span>
+        </p>
+
+        <div class="task-input">
+
+            <input type="text" id="itemInput" placeholder="Type a task...">
+            <p id="errormsg">Please enter a task.</p>
+            <br>
+            <button id="addItem">Add Item &nbsp;&nbsp;<i class="fa-solid fa-plus"></i></button>
+            <button id="clear">Clear All &nbsp;&nbsp;<i class="fa-solid fa-circle-xmark"></i></button>
+
+        </div>
+
+        <ul id="list"></ul>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- JS File -->
+    <script src="app.js"></script>
+</body>
+
+</html>
